@@ -17,6 +17,7 @@ body{
   background-color: #DDDDDD;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -38,7 +39,7 @@ caption{
 
 p{
   font-size: 15px;
-  padding-top: 15x;
+  padding-top: 15px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -65,6 +66,10 @@ table{
   background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;  
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+ 
 }
 
 .rowhead{
@@ -106,6 +111,7 @@ tr:nth-child(odd){
 
 tr:hover {
   background-color: #7e0830;
+  opacity: .25;
 
 }
 
@@ -117,9 +123,8 @@ thead, tr:first-child{
   border-top-left-radius: 10 px;
 } 
 
-th:first-child{
-  border-top-left-radius: 10 px;
-
+th.rowhead:last-child{
+  border-bottom-left-radius: 10 px;
 
 }
 
