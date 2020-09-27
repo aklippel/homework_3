@@ -70,7 +70,7 @@ table{
   min-width: 125px;  
   padding: 10px;
   text-align: center;
-  vertical-align: auto;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0820;
  
@@ -88,11 +88,9 @@ tr:last-child th:first-child.rowhead{
   border-bottom-left-radius: 10px;
 }
 
-td:last-child td:first-child.rowhead{
+tr:last-child td:last-child.rowhead{
   border-bottom-right-radius: 10px;
 }
-
-
 
 
 .rowhead{
@@ -109,6 +107,7 @@ td{
   border-top: 2px solid #000000;
   padding: 10px;
   border-collapse: collapse;
+  text-align: center;
 
   
 }
@@ -137,15 +136,6 @@ tr:hover {
 
 :focus{
   border: 3px dashed #417243;
-}
-
-thead, tr:first-child{
-  border-top-left-radius: 10px;
-} 
-
-.rowhead:last-child{
-  border-bottom-left-radius: 10px;
-
 }
 
 footer{
